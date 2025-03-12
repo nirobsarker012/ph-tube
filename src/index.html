@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>PH-Tube</title>
     <link rel="stylesheet" href="./output.css" />
   </head>
@@ -10,7 +16,9 @@
     <header>
       <div class="container">
         <!-- NAV_BAR SECTIONS -->
-        <nav class="flex items-center justify-between py-7">
+        <nav
+          class="flex items-center justify-between py-7 border-b border-[rgba(23,23,23,0.2)]"
+        >
           <div class="cursor-pointer">
             <img src="../assets/Logo.png" alt="" class="" />
           </div>
@@ -31,5 +39,35 @@
         </nav>
       </div>
     </header>
+    <main class="py-[32px]">
+      <!-- HERO SECTION -->
+      <section class="">
+        <div class="container">
+          <!-- HERO BTNS -->
+          <div class="flex justify-center items-center gap-[23.5px]">
+            <button
+              class="bg-[#ff1f3d] rounded-[4px] text-[#ffffff] py-[6.5px] px-[20px] font-semibold text-[18px]"
+            >
+              All
+            </button>
+            <button
+              class="bg-[rgba(37,37,37,0.15)] text-[16px] font-medium rounded-[4px] py-[8px] px-[20px] hover:bg-[#ff1f3d] hover:text-[#ffffff] duration-200"
+            >
+              Music
+            </button>
+            <button
+              class="bg-[rgba(37,37,37,0.15)] text-[16px] font-medium rounded-[4px] py-[8px] px-[20px] hover:bg-[#ff1f3d] hover:text-[#ffffff] duration-200"
+            >
+              Comedy
+            </button>
+            <button
+              class="bg-[rgba(37,37,37,0.15)] text-[16px] font-medium rounded-[4px] py-[8px] px-[20px] hover:bg-[#ff1f3d] hover:text-[#ffffff] duration-200"
+            >
+              Drawing
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

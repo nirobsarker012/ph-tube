@@ -94,10 +94,3 @@ Error Layout
 <img src="design/Frame 3.png">
 
 <hr/>
-
-git init
-git add .
-git commit -m "header-section"
-git branch -M main
-git remote add origin https://github.com/nirobsarker012/ph-tube.git
-git push -u origin main
